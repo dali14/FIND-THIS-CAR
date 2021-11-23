@@ -14,8 +14,6 @@ import { AppRoutingModule } from './approuting.module';
     NavbarComponent,
     HomeComponent,
     LoginComponent
-    
-    
   ],
   imports: [
     BrowserModule,

@@ -5,6 +5,7 @@ import { NavbarComponent } from './navbar/navbar.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './approuting.module';
+import { FindComponent } from './find/find.component';
 
 
 
@@ -13,7 +14,8 @@ import { AppRoutingModule } from './approuting.module';
     AppComponent,
     NavbarComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    FindComponent
   ],
   imports: [
     BrowserModule,

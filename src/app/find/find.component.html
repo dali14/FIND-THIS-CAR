@@ -1,1 +1,32 @@
-<p>find works!</p>
+<div class="app-warp"><img [src]="bgfind" class="bg-img"></div>
+<div class="logofind"><img [src]="logofind" class="bg-img"></div>
+
+
+
+<form class="finduserform">
+    <div class="col-auto">
+        <label class="sr-only" for="inlineFormInputGroup"><h5>Username</h5></label>
+        <div class="input-group mb-2">
+          <div class="input-group-prepend">
+            <div class="input-group-text">@</div>
+          </div>
+          <input type="text" class="form-control" id="inlineFormInputGroup" >
+        </div>
+      </div>
+    <div class="row">
+      <div class="col">
+        <label class="sr-only" for="inlineFormInputGroup"><h5>Name</h5></label>
+        <input type="text" class="form-control" placeholder="">
+        <br>
+        <label class="sr-only" for="inlineFormInputGroup"><h5>Ville</h5></label>
+        <input type="text" class="form-control" >
+      </div>
+      <div class="col">
+        <label class="sr-only" for="inlineFormInputGroup"><h5>Email</h5></label>
+        <input type="text" class="form-control" >
+        <br>
+        <label class="sr-only" for="inlineFormInputGroup"><h5>Telephone</h5></label>
+        <input type="text" class="form-control" >
+      </div>
+    </div>
+</form>

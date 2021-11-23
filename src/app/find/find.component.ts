@@ -7,6 +7,9 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FindComponent implements OnInit {
 
+  bgfind:string ='../assets/img/bgfind.png';
+  logofind:string ='../assets/img/logofind.svg';
+
   constructor() { }
 
   ngOnInit(): void {

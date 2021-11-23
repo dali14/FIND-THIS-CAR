@@ -1,0 +1,13 @@
+.bg-img
+{
+opacity:100%;
+position:fixed;
+background-size: contain;
+}
+.formlogin{
+
+    position: absolute;
+    opacity:80%;
+    padding-left: 670px;
+    padding-top: 420px;
+}

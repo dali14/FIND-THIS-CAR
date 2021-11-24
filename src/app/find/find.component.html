@@ -1,32 +1,35 @@
 <div class="app-warp"><img [src]="bgfind" class="bg-img"></div>
 <div class="logofind"><img [src]="logofind" class="bg-img"></div>
 
+<p>course-details works!</p>
 
 
-<form class="finduserform">
-    <div class="col-auto">
+  <form class="finduserform">
+    <div class="col-auto" *ngFor="let u of usersList">
         <label class="sr-only" for="inlineFormInputGroup"><h5>Username</h5></label>
         <div class="input-group mb-2">
           <div class="input-group-prepend">
             <div class="input-group-text">@</div>
           </div>
-          <input type="text" class="form-control" id="inlineFormInputGroup" >
+          <input type="text" class="form-control" id="inlineFormInputGroup" placeholder="{{ u.pseudo }}">
         </div>
       </div>
-    <div class="row">
+    <div class="row" *ngFor="let u of usersList">
       <div class="col">
         <label class="sr-only" for="inlineFormInputGroup"><h5>Name</h5></label>
-        <input type="text" class="form-control" placeholder="">
+        <input type="text" class="form-control" placeholder="{{ u.Name }}">
         <br>
         <label class="sr-only" for="inlineFormInputGroup"><h5>Ville</h5></label>
-        <input type="text" class="form-control" >
+        <input type="text" class="form-control" placeholder="{{ u.ville }}">
       </div>
-      <div class="col">
+      <div class="col" *ngFor="let u of usersList">
         <label class="sr-only" for="inlineFormInputGroup"><h5>Email</h5></label>
-        <input type="text" class="form-control" >
+        <input type="text" class="form-control" placeholder="{{ u.email }}">
         <br>
         <label class="sr-only" for="inlineFormInputGroup"><h5>Telephone</h5></label>
-        <input type="text" class="form-control" >
+        <input type="text" class="form-control" placeholder="{{ u.tel}}">
       </div>
     </div>
 </form>
+
+

@@ -3,7 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { FindComponent } from './find/find.component';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
-import { NavbarComponent } from './navbar/navbar.component';
+
 import { NotFoundComponent } from './not-found/not-found.component';
 
 const routes: Routes = [
@@ -17,9 +17,7 @@ const routes: Routes = [
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
   declarations: [
-    /**NotFoundComponent,
-    LoginComponent,
-    NavbarComponent*/
+   
   ]
 })
 export class AppRoutingModule {

@@ -1,0 +1,30 @@
+.finduserform{
+    background-color:rgba(0,0,0,0);
+    position: absolute;
+    margin-left: 580px;
+    margin-right: 300px;
+    padding-top: 380px;
+    
+}
+.bg-img
+{
+opacity:100%;
+position:fixed;
+background-size: contain;
+}
+.logofind{
+    position: absolute;
+    margin-left: 710px;
+    padding-top: 150px;
+    
+
+
+}
+.mat1{
+    background-color:rgba(0,0,0,0);
+    font-size:24px;
+    color: white;
+    width: 80px;
+    top: 12px;
+    border-radius: 10px;
+}

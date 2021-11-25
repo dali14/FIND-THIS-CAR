@@ -6,44 +6,44 @@ background-size: contain;
 }
 .input-group .botton{
 position: absolute;
+height: 60px;
 }
-.tn{
-    color:white;
-}
-
 .input-group{
     
     position: absolute;
     padding-top: 100px;
-    padding-left: 350px;
-    padding-right: 200px;
+    padding-left: 480px;
     
     margin: 250px;
     
 }
 
-
-
 .mat1{
     background-color:rgba(0,0,0,0);
+    width: 150px;
+    height: 60px;
     font-size:24px;
     color: white;
-    width: 80px;
-    top: 12px;
-    border-radius: 10px;
+    border-radius: 15px;
     font-weight:bold;
 
 
 }
+
 .mat2{
 
     background-color:rgba(0,0,0,0);
     font-size:24px;
     color: white;
-    width: 100px;
+    width: 200px;
+    height: 60px;
     top: 12px;
     border-radius: 10px;
     font-weight:bold;
     
 }
+.tn{
+    color:white;
+}
+
 

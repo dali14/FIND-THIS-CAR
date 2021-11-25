@@ -7,6 +7,8 @@ import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './approuting.module';
 import { FindComponent } from './find/find.component';
 
+import { ShowallModule } from './showall/showall.module';
+
 
 
 @NgModule({
@@ -15,11 +17,13 @@ import { FindComponent } from './find/find.component';
     NavbarComponent,
     HomeComponent,
     LoginComponent,
-    FindComponent
+    FindComponent,
+    
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ShowallModule
   ],
  
   providers: [],

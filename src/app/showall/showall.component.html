@@ -6,6 +6,9 @@
         <div class="col-lg-6 col-md-8 mx-auto">
           <h1 class="fw-light">Users lists</h1>
           <p class="lead text-muted">List Of All Users In this Site(Dashbord admin)</p>
+          <input type="text" #myInput [(ngModel)]="nom" (input)="search()" />
+          
+          
         </div>
       </div>
     </section>
@@ -14,21 +17,23 @@
       <div class="container">
   
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-          <div class="col" *ngFor="let u of usersList">
+          <div class="col" *ngFor="let u of usersList ">
             <div class="card shadow-sm">
               
   
               <div class="card-body">
                 <h3>{{ u.Name }}</h3>
-                <p class="card-text">{{ u.ville}} [...]</p>
+                <p class="card-text">Ville : {{ u.ville}}</p>
+                <p class="card-text">Telephone : {{ u.tel}}</p>
+                <p class="card-text">Email : {{ u.email}}</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <button type="button" routerLink="/showall/{{u.Name}}"  class="btn btn-sm btn-outline-secondary"><i
-                        class="bi bi-zoom-in"></i></button>
+                        class="fa fa-trash"></i>show More</button>
                     <button type="button" class="btn btn-sm btn-outline-secondary"><i
-                        class="bi bi-cart-plus"></i></button>
+                      >Delete</i></button>
                   </div>
-                  <small class="text-muted">{{ u.tel }}</small>
+                  <small class="text-muted">Nomber de Voiteur : {{ u.voiteur.length }}</small>
                 </div>
               </div>
             </div>

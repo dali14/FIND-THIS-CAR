@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { ShowallComponent } from './showall.component';
 import { ShowallRoutingModule } from './showall-routing.module';
+import { FormsModule } from '@angular/forms';
 
 
 
@@ -12,7 +13,8 @@ import { ShowallRoutingModule } from './showall-routing.module';
   ],
   imports: [
     CommonModule,
-    ShowallRoutingModule
+    ShowallRoutingModule,
+    FormsModule
   ]
 })
 export class ShowallModule { }

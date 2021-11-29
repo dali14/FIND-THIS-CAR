@@ -3,10 +3,10 @@ import { Users } from "./users.module";
 export const users:Users[] =[
 {pseudo: "dali14",
 Name: "dali",
-ville: "manouba",
+ville: "ariana",
 email: "dali@dali.com",
 password: "123456",
-tel:"20158658",
+tel:"20154458",
 voiteur: [{
 
     Matricule1:255,
@@ -34,7 +34,7 @@ Name: "jihed",
 ville: "manouba",
 email: "dali@dali.com",
 password: "123456",
-tel:"20158658",
+tel:"20258865",
 voiteur: [{
 
     Matricule1:255,
@@ -62,7 +62,7 @@ Name: "ali",
 ville: "manouba",
 email: "dali@dali.com",
 password: "123456",
-tel:"20158658",
+tel:"54586362",
 voiteur: [{
 
     Matricule1:255,
@@ -90,7 +90,7 @@ Name: "houssem",
 ville: "manouba",
 email: "dali@dali.com",
 password: "123456",
-tel:"20158658",
+tel:"20187601",
 voiteur: [{
 
     Matricule1:255,
@@ -118,7 +118,7 @@ Name: "morad",
 ville: "manouba",
 email: "dali@dali.com",
 password: "123456",
-tel:"20158658",
+tel:"50727627",
 voiteur: [{
 
     Matricule1:255,
@@ -172,7 +172,7 @@ voiteur: [{
 {pseudo: "dali1254",
 Name: "salah",
 ville: "manouba",
-email: "dali@dali.com",
+email: "salah@hotmail.com",
 password: "123456",
 tel:"20158658",
 voiteur: [{

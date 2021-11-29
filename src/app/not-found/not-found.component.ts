@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-not-found',
   templateUrl: './not-found.component.html',
@@ -7,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class NotFoundComponent implements OnInit {
 
-  bg404: string ='../assets/img/404.svg';
+  bg404: string ='../assets/img/404.jpg';
   constructor() { }
 
   ngOnInit(): void {

@@ -6,9 +6,12 @@ import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { AppRoutingModule } from './approuting.module';
 import { FindComponent } from './find/find.component';
+import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
+
 
 import { ShowallModule } from './showall/showall.module';
-
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 
 @NgModule({
@@ -23,7 +26,10 @@ import { ShowallModule } from './showall/showall.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ShowallModule
+    ShowallModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
  
   providers: [],

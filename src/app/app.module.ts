@@ -12,6 +12,7 @@ import { ReactiveFormsModule } from '@angular/forms';
 
 import { ShowallModule } from './showall/showall.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CompteUserModule } from './compte-user/compte-user.module';
 
 
 @NgModule({
@@ -29,7 +30,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ShowallModule,
     BrowserAnimationsModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    CompteUserModule
   ],
  
   providers: [],

@@ -17,8 +17,8 @@ const routes: Routes = [
   {path: 'showall', loadChildren: () => import('./showall/showall.module').then(m => m.ShowallModule) },
   {path:'admin',component:AdminComponent},
   {path:'forget',component:ForgetpassComponent},
-  
-  {path : '**', component: NotFoundComponent},
+  {path:'compteUser',loadChildren:()=>import('./compte-user/compte-user.module').then(m => m.CompteUserModule)},
+  {path : '**', component: NotFoundComponent}
   
   
 ];

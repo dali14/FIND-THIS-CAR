@@ -8,6 +8,7 @@ import { LoginComponent } from './login/login.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { ForgetpassComponent } from './admin/forgetpass/forgetpass.component';
 import { AdminComponent } from './admin/admin.component';
+import { CompteInfoComponent } from './compte-user/compte-info/compte-info.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   {path:'admin',component:AdminComponent},
   {path:'forget',component:ForgetpassComponent},
   {path:'compteUser',loadChildren:()=>import('./compte-user/compte-user.module').then(m => m.CompteUserModule)},
+  {path:'register2',component:CompteInfoComponent},
   {path : '**', component: NotFoundComponent}
   
   

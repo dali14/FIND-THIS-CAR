@@ -17,7 +17,7 @@
         <div class="row">
             <div class="img-holder">
                 <div class="bg"> 
-                    <img class="img123"[src]="bg">
+                   <img class="img123"[src]="bg">
                 </div>
                 <div class="info-holder">
 
@@ -32,12 +32,11 @@
                             <a href="login1.html">Login</a><a href="register1.html" class="active">Register</a>
                         </div>
                         <form>
-                            <input class="form-control" type="text" name="name" placeholder="Pseudo" required>
-                            <input class="form-control" type="email" name="email" placeholder="E-mail Address" required>
-                            <input class="form-control" type="password" name="password" placeholder="Password" required>
-                            <input class="form-control" type="password" name="password" placeholder=" Confirm Password" required>
+                            <input class="form-control" type="text" name="name" placeholder="Full Name" required>
+                            <input class="form-control" type="text" name="text" placeholder="Ville" required>
+                            <input class="form-control" type="number" name="number" placeholder="Phone Number" required>
                             <div class="form-button">
-                                <button routerLink="/register2"  class="ibtn">Next</button>
+                                <button id="submit" type="submit" class="ibtn">Register</button>
                             </div>
                         </form>
                         <div class="other-links">

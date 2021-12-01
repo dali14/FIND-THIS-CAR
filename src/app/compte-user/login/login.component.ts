@@ -6,34 +6,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./login.component.css']
 })
 export class LoginComponent implements OnInit {
-  bgfind: string ='../assets/img/bgfind.png';
-
+  bg:string ='./assets/compteUser/user.png';
   constructor() { }
 
   ngOnInit(): void {
   }
-  public user = [
-    {
-      name:'dali',
-      age:30,
-      email:'',
-    } ,
-    {
-      name:'dali',
-      age:30,
-      email:'',
-    } ,
-    {
-      name:'dali',
-      age:30,
-      email:'',
-    } 
-
-
-
-  ]
-
-
-
 
 }

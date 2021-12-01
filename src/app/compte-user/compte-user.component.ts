@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./compte-user.component.css']
 })
 export class CompteUserComponent implements OnInit {
-  bg:string ='./assets/compteUser/bgregister.png';
+  bg:string ='./assets/compteUser/user.png';
   constructor() { }
 
   ngOnInit(): void {

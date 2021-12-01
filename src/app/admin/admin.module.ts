@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { AdminComponent } from './admin.component';
 import { AdminRoutingModule } from './admin-routing.module';
 
+import { NavbaradminComponent } from './navbaradmin/navbaradmin.component';
+
 
 
 
@@ -10,6 +12,8 @@ import { AdminRoutingModule } from './admin-routing.module';
   declarations: [
     
     AdminComponent,
+         
+    
     
   ],
   imports: [

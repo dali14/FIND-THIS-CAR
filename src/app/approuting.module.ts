@@ -9,6 +9,7 @@ import { ForgetpassComponent } from './admin/forgetpass/forgetpass.component';
 import { AdminComponent } from './admin/admin.component';
 import { CompteInfoComponent } from './compte-user/compte-info/compte-info.component';
 import { LoginComponent } from './compte-user/login/login.component';
+import { PasswordForComponent } from './compte-user/password-for/password-for.component';
 
 
 
@@ -21,6 +22,7 @@ const routes: Routes = [
   {path:'compteUser',loadChildren:()=>import('./compte-user/compte-user.module').then(m => m.CompteUserModule)},
   {path:'register2',component:CompteInfoComponent},
   {path:'login',component:LoginComponent},
+  {path:'PassFor',component:PasswordForComponent},
   {path : '**', component: NotFoundComponent}
   
   

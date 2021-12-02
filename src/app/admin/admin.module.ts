@@ -18,6 +18,12 @@ import { LoginComponent } from './login/login.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import {MatStepperModule} from '@angular/material/stepper';
+import { AddadminComponent } from './addadmin/addadmin.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import {MatProgressBarModule} from '@angular/material/progress-bar';
+
+
 
 
 
@@ -30,11 +36,13 @@ import {MatInputModule} from '@angular/material/input';
     NavComponent,
     DashboardComponent,
     LoginComponent,
-         
+    AddadminComponent,
     
-    
+  
   ],
   imports: [
+    MatStepperModule,
+    MatProgressBarModule,
     MatInputModule,
     MatFormFieldModule,
     CommonModule,
@@ -49,8 +57,11 @@ import {MatInputModule} from '@angular/material/input';
     MatCardModule,
     MatMenuModule,
     RouterModule,
-    FlexLayoutModule
+    FlexLayoutModule,
+    ReactiveFormsModule,
+    FormsModule
    
   ]
 })
+
 export class AdminModule { }

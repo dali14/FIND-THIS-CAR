@@ -5,13 +5,18 @@ import { ForgetpassComponent } from './forgetpass/forgetpass.component';
 import { CommonModule } from "@angular/common";
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
+import { NavComponent } from './nav/nav.component';
+import { AddadminComponent } from './addadmin/addadmin.component';
 
 const routes: Routes = [
 
-  { path:'', component:AdminComponent},
+  { path:'', component:LoginComponent},
   { path:'forget',component:ForgetpassComponent},
   { path:'dashboard', component:DashboardComponent},
-  {path:'login-admin',component:LoginComponent}
+  {path:'mydashboard',component:NavComponent},
+  {path:'addadmin',component:AddadminComponent}
+
+  /*{path:'login-admin',component:LoginComponent}*/
   
   
   ];

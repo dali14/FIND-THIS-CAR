@@ -22,6 +22,9 @@ import {MatStepperModule} from '@angular/material/stepper';
 import { AddadminComponent } from './addadmin/addadmin.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {MatProgressBarModule} from '@angular/material/progress-bar';
+import { SidebarComponent } from './sidebar/sidebar.component';
+import { AreaComponent } from './widgets/area/area.component';
+import { HighchartsChartModule } from 'highcharts-angular';
 
 
 
@@ -37,6 +40,8 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     DashboardComponent,
     LoginComponent,
     AddadminComponent,
+    SidebarComponent,
+    AreaComponent,
     
   
   ],
@@ -59,8 +64,12 @@ import {MatProgressBarModule} from '@angular/material/progress-bar';
     RouterModule,
     FlexLayoutModule,
     ReactiveFormsModule,
-    FormsModule
+    FormsModule,
+    HighchartsChartModule
    
+  ],
+  exports:[
+    AreaComponent
   ]
 })
 

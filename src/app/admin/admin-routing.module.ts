@@ -7,14 +7,16 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { NavComponent } from './nav/nav.component';
 import { AddadminComponent } from './addadmin/addadmin.component';
+import { SidebarComponent } from './sidebar/sidebar.component';
 
 const routes: Routes = [
 
   { path:'', component:LoginComponent},
   { path:'forget',component:ForgetpassComponent},
   { path:'dashboard', component:DashboardComponent},
-  {path:'mydashboard',component:NavComponent},
-  {path:'addadmin',component:AddadminComponent}
+  {path:'mydashboard',component:DashboardComponent},
+  {path:'addadmin',component:AddadminComponent},
+  {path:'sidebar',component:SidebarComponent}
 
   /*{path:'login-admin',component:LoginComponent}*/
   

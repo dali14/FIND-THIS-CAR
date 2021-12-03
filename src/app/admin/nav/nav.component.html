@@ -15,30 +15,16 @@
           <h2 matSubheader>Users Options</h2>
           <a mat-list-item [routerLink]="['/showall']" routerLinkActive="router-link-active">Show All Users</a> 
           <a mat-list-item [routerLink]="['/dashboard']" routerLinkActive="router-link-active">Show all Cars</a> 
-          <a mat-list-item [routerLink]="['/']" routerLinkActive="router-link-active">Delete User</a> 
-          <a mat-list-item [routerLink]="['/']" routerLinkActive="router-link-active">Delete Car</a>
+         
           <mat-divider></mat-divider>
           <h2 matSubheader>Admin Manager</h2>
           <a mat-list-item [routerLink]="['/']" routerLinkActive="router-link-active">Show All Admins</a> 
-          <a mat-list-item [routerLink]="['dashboard']" routerLinkActive="router-link-active">Delete Admin</a> 
-          <a mat-list-item [routerLink]="['/']" routerLinkActive="router-link-active">Ajouter Admin</a> 
-          <a mat-list-item [routerLink]="['/']" routerLinkActive="router-link-active">Roles Admin</a>
+          <a mat-list-item [routerLink]="['/admin/addadmin']" routerLinkActive="router-link-active">Add admins</a> 
+         
         </div>
 
       </mat-nav-list>
     </mat-sidenav>
-    <mat-sidenav-content>
-      <mat-toolbar color="primary">
-        <button
-          type="button"
-          aria-label="Toggle sidenav"
-          mat-icon-button
-          (click)="drawer.toggle()"
-          *ngIf="isHandset$ | async">
-          <mat-icon aria-label="Side nav toggle icon">menu</mat-icon>
-        </button>
-        <span>find-this-car</span>
-      </mat-toolbar>
-      <app-dashboard></app-dashboard>
-  </mat-sidenav-content>
+    
+  
 </mat-sidenav-container>

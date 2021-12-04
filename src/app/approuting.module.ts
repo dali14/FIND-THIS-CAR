@@ -10,6 +10,7 @@ import { AdminComponent } from './admin/admin.component';
 import { CompteInfoComponent } from './compte-user/compte-info/compte-info.component';
 import { LoginComponent } from './compte-user/login/login.component';
 import { PasswordForComponent } from './compte-user/password-for/password-for.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
@@ -23,6 +24,7 @@ const routes: Routes = [
   {path:'register2',component:CompteInfoComponent},
   {path:'login',component:LoginComponent},
   {path:'PassFor',component:PasswordForComponent},
+  {path:'contact',component:ContactComponent},
   {path : '**', component: NotFoundComponent}
   
   

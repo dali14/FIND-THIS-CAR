@@ -7,11 +7,10 @@ import { AppRoutingModule } from './approuting.module';
 import { FindComponent } from './find/find.component';
 import { FormsModule } from '@angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
-
-
 import { ShowallModule } from './showall/showall.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CompteUserModule } from './compte-user/compte-user.module';
+import { ContactComponent } from './contact/contact.component';
 
 
 @NgModule({
@@ -19,8 +18,8 @@ import { CompteUserModule } from './compte-user/compte-user.module';
     AppComponent,
     NavbarComponent,
     HomeComponent,
-
     FindComponent,
+   ContactComponent,
     
   ],
   imports: [

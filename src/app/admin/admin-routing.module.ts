@@ -15,6 +15,7 @@ const routes: Routes = [
   { path:'', component:LoginComponent},
   
   { path:'dashboard', component:DashboardComponent},
+  { path:'resetpass', component:ForgetpassComponent},
   {path:'mydashboard',component:DashboardComponent},
   {path:'addadmin',component:AddadminComponent},
   {path:'sidebar',component:SidebarComponent},

@@ -10,7 +10,7 @@ export interface DialogData {
   styleUrls: ['./dialog-content.component.css']
 })
 export class DialogContentComponent implements OnInit {
-
+  
   constructor(
     public dialogRef: MatDialogRef<DialogContentComponent>,
     @Inject(MAT_DIALOG_DATA) public data: DialogData, ) { }

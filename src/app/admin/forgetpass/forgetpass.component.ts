@@ -7,11 +7,10 @@ import { DialogComponent } from './dialog/dialog.component';
   styleUrls: ['./forgetpass.component.css']
 })
 export class ForgetpassComponent implements OnInit {
-
+  hide = true;
   graph4:string='./assets/admin/graph4.svg';
-
+  
   constructor() { }
-
   ngOnInit(): void {
   }
 

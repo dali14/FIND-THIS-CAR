@@ -30,6 +30,9 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDialogModule} from '@angular/material/dialog';
 import { DialogComponent } from './forgetpass/dialog/dialog.component';
 import { DialogContentComponent } from './forgetpass/dialog/components/dialog-content/dialog-content.component';
+import { CardComponent } from './widgets/card/card.component';
+import {MatDatepickerModule} from '@angular/material/datepicker';
+import { PieComponent } from './widgets/pie/pie.component';
 
 
 
@@ -49,8 +52,9 @@ import { DialogContentComponent } from './forgetpass/dialog/components/dialog-co
     AreaComponent,
     DialogComponent,
     DialogContentComponent,
+    CardComponent,
+    PieComponent,
     
-  
   ],
   imports: [
     
@@ -75,11 +79,18 @@ import { DialogContentComponent } from './forgetpass/dialog/components/dialog-co
     FormsModule,
     HighchartsChartModule,
     MatDialogModule,
+    MatCardModule,
+    MatDatepickerModule
+    
     
    
   ],
   exports:[
-    AreaComponent
+    AreaComponent,
+    CardComponent,
+    PieComponent,
+    
+    
   ]
 })
 

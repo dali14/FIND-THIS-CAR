@@ -33,10 +33,8 @@ import { DialogContentComponent } from './forgetpass/dialog/components/dialog-co
 import { CardComponent } from './widgets/card/card.component';
 import {MatDatepickerModule} from '@angular/material/datepicker';
 import { PieComponent } from './widgets/pie/pie.component';
-
-
-
-
+import { AdmintableComponent } from './widgets/admintable/admintable.component';
+import { MatTableModule } from '@angular/material/table'  
 
 
 
@@ -54,6 +52,7 @@ import { PieComponent } from './widgets/pie/pie.component';
     DialogContentComponent,
     CardComponent,
     PieComponent,
+    AdmintableComponent,
     
   ],
   imports: [
@@ -80,7 +79,8 @@ import { PieComponent } from './widgets/pie/pie.component';
     HighchartsChartModule,
     MatDialogModule,
     MatCardModule,
-    MatDatepickerModule
+    MatDatepickerModule,
+    MatTableModule
     
     
    
@@ -88,10 +88,10 @@ import { PieComponent } from './widgets/pie/pie.component';
   exports:[
     AreaComponent,
     CardComponent,
-    PieComponent,
+    PieComponent, 
     
-    
-  ]
+  ],
+ 
 })
 
 export class AdminModule { }

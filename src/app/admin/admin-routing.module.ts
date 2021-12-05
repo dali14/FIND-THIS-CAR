@@ -9,6 +9,7 @@ import { NavComponent } from './nav/nav.component';
 import { AddadminComponent } from './addadmin/addadmin.component';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { DialogComponent } from './forgetpass/dialog/dialog.component';
+import { AdmintableComponent } from './widgets/admintable/admintable.component';
 
 const routes: Routes = [
 
@@ -19,7 +20,8 @@ const routes: Routes = [
   {path:'mydashboard',component:DashboardComponent},
   {path:'addadmin',component:AddadminComponent},
   {path:'sidebar',component:SidebarComponent},
-  {path:'resetpassword',component:DialogComponent}
+  {path:'resetpassword',component:DialogComponent},
+  {path:'tableadmin',component:AdmintableComponent}
 
   /*{path:'login-admin',component:LoginComponent}*/
   

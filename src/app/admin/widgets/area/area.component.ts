@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import * as Highcharts from 'highcharts';
+import HC_exporting from 'highcharts/modules/exporting';
 @Component({
   selector: 'app-widget-area',
   templateUrl: './area.component.html',
@@ -21,13 +22,13 @@ export class AreaComponent implements OnInit {
           type: 'area'
       },
       title: {
-          text: 'Historic and Estimated Worldwide Population Growth by Region'
+          text: 'Random Data'
       },
       subtitle: {
-          text: 'Source: Wikipedia.org'
+          text: 'demo'
       },
       xAxis: {
-          categories: ['1750', '1800', '1850', '1900', '1950', '1999', '2050'],
+          categories: ['2020', '2021', '2022', '2023', '2024', '2025', '2050'],
           tickmarkPlacement: 'on',
           title: {
               enabled: false
@@ -71,6 +72,16 @@ export class AreaComponent implements OnInit {
           data: [2, 2, 2, 6, 13, 30, 46]
       }]
   };
+
+  HC_exporting(Highcharts); /*for eport the data */
+
+
+
+    setTimeout(() =>{
+      window.dispatchEvent(new Event('resize'));
+    },300);
+
+
 
 
 

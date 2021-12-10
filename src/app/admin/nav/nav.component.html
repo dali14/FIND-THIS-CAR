@@ -1,0 +1,30 @@
+<mat-sidenav-container class="sidenav-container">
+  <mat-sidenav #drawer class="sidenav" fixedInViewport
+      [attr.role]="(isHandset$ | async) ? 'dialog' : 'navigation'"
+      [mode]="(isHandset$ | async) ? 'over' : 'side'"
+      [opened]="(isHandset$ | async) === false">
+    <mat-toolbar>Dashboard Admin</mat-toolbar>
+      <mat-nav-list>
+        <div class='profile-card'>
+          <div class='header'>
+            <img [src]="idpic" alt="">
+            <h2>Med Ali Jlassi</h2>
+            <h4>Dalijlassi@gmail.com</h4>
+          </div>
+          <mat-divider></mat-divider>
+          <h2 matSubheader>Users Options</h2>
+          <a mat-list-item [routerLink]="['/showall']" routerLinkActive="router-link-active">Show All Users</a> 
+          <a mat-list-item [routerLink]="['/dashboard']" routerLinkActive="router-link-active">Show all Cars</a> 
+         
+          <mat-divider></mat-divider>
+          <h2 matSubheader>Admin Manager</h2>
+          <a mat-list-item [routerLink]="['/']" routerLinkActive="router-link-active">Show All Admins</a> 
+          <a mat-list-item [routerLink]="['/admin/addadmin']" routerLinkActive="router-link-active">Add admins</a> 
+         
+        </div>
+
+      </mat-nav-list>
+    </mat-sidenav>
+    
+  
+</mat-sidenav-container>

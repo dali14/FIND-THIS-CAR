@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DialogComponent } from './dialog/dialog.component';
 
 @Component({
   selector: 'app-forgetpass',
@@ -6,11 +7,10 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./forgetpass.component.css']
 })
 export class ForgetpassComponent implements OnInit {
-
+  hide = true;
   graph4:string='./assets/admin/graph4.svg';
-
+  
   constructor() { }
-
   ngOnInit(): void {
   }
 

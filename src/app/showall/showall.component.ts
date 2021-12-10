@@ -23,8 +23,10 @@ export class ShowallComponent implements OnInit {
  
   ngOnInit(): void {
     
-    this.usersList= users; 
+    this.usersList= users;
   }
+
+
   search(){
     if(this.nom != ""){
       this.usersList = this.usersList.filter(res=>{

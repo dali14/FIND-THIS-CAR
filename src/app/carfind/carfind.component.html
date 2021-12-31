@@ -1,0 +1,47 @@
+
+<!--<p>     Car ID : {{dataSource.mat1}}   </p>
+<p>     Car ID : {{dataSource.mat2}}   </p>
+<p>     Car ID : {{dataSource.Matricule}} </p>
+<p>     Car ID : {{dataSource.model}}   </p>
+<p><a [routerLink]="['/user/',dataSource.id_user]" routerLinkActive="router-link-active" >user account</a></p>
+-->
+<body>
+	
+	<div class="background-image">
+        <img [src]="bgfind" class="bg-img">
+	    <div class="min-vh-100 d-flex flex-column opacity-mask" data-opacity-mask="rgba(0, 0, 0, 0.6)">
+	        <div class="container my-auto">
+	            <div class="row">
+	                <div class="col-md-9 col-lg-7 col-xl-5 mx-auto my-4">
+	                    <div class="panel header_2 center">
+	                        
+	                        <form class="input_style_2" method="post">
+	                            <div class="form-group">
+	                                <label for="full_name">Car Found :</label>
+	                                <input type="text" name="full_name" id="full_name" class="form-control" value="{{dataSource.Matricule}}" readonly>
+	                            </div>
+	                            <div class="form-group mb-4">
+	                                <label for="email_address">Model :</label>
+	                                <input type="email" name="email_address" id="email_address"  value="{{dataSource.model}}" class="form-control" readonly>
+	                            </div>
+	                           <br>
+                               <br>
+                               
+	                            <button class="btn_1 full-width"><a [routerLink]="['/user/',dataSource.id_user]" routerLinkActive="router-link-active" >Contact User</a></button>
+	                        </form>
+	                    </div>
+	                </div>
+	                <!-- /col -->
+	            </div>
+	            <!-- /row -->
+	        </div>
+	        <!-- /container -->
+	        <div class="container py-2 copy white">© 2021  FIND CAR - All Rights Reserved.</div>
+	    </div>
+	</div>
+	<!-- /background-image -->
+
+	<!-- Modal terms -->
+	
+
+</body>

@@ -11,6 +11,7 @@ import { ShowallModule } from './showall/showall.module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CompteUserModule } from './compte-user/compte-user.module';
 import { ContactComponent } from './contact/contact.component';
+import { CarfindComponent } from './carfind/carfind.component';
 
 
 @NgModule({
@@ -20,6 +21,7 @@ import { ContactComponent } from './contact/contact.component';
     HomeComponent,
     FindComponent,
    ContactComponent,
+   CarfindComponent,
     
   ],
   imports: [

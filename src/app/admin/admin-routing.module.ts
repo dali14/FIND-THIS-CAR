@@ -29,7 +29,8 @@ const routes: Routes = [
     exports: [RouterModule],
     declarations: [
      ForgetpassComponent,
-     AddadminComponent
+     AddadminComponent,
+     LoginComponent
      
   ]
   })

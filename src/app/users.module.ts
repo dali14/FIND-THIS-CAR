@@ -5,5 +5,5 @@ export interface Users {
     email: string;
     password: string;
     tel:string;
-    voiteur: Array<{Matricule1: number,Matricule2 : number,Modele: string}>;
+    
   }
